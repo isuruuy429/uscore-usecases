@@ -1,0 +1,14 @@
+[package]
+org = "isuruuy"
+name = "USCorePatientProfile"
+version = "0.1.0"
+distribution = "2201.3.1"
+
+[build-options]
+observabilityIncluded = true
+
+[[platform.java11.dependency]]
+groupId = "mysql"
+artifactId = "mysql-connector-java"
+version = "8.0.26"
+path = "/Users/isuruuy/Desktop/RND/OH/testing/feature-testing/choreo/templates/uscore/mysql-connector-java-8.0.26.jar"
